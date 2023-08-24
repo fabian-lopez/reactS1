@@ -1,0 +1,35 @@
+.wrapper-Ej2WayBinding {
+    margin:1rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.Ej2WayBinding-input {
+    text-align: center;
+}
+
+.Ej2WayBinding-input > input:focus-visible {    
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px red;
+    box-shadow:2px orange;
+    border-style: groove;
+}
+
+.btn2WayBinding {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.btn2WayBinding:hover {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif';
+    background-color: blue;
+    color: orange;
+    border-radius: 5px;
+}
